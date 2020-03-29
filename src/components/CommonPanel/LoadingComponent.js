@@ -28,7 +28,7 @@ class LoadingComponent extends Component {
     }
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     if (nextProps.user !== this.props.user && !isEmpty(nextProps.user)) {
       this.props.getUsers();
       this.props.getPatients();

@@ -62,7 +62,7 @@ class Users extends Component {
     this.handleSettings(settings.civility, "civility");
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     if (nextProps.users !== this.props.users) {
       this.handleLoadUsers(nextProps.users);
     }

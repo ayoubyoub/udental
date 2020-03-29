@@ -36,7 +36,7 @@ class Channels extends Component {
     this.handleMyNotifsPb(publicMessages, user);
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     const {user} = this.state;
     if (nextProps.channels !== this.props.channels) {
       this.setState({channels: values(nextProps.channels)});

@@ -43,7 +43,7 @@ class DirectMessages extends Component {
     }
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     const {user} = this.state;
     if (nextProps.users !== this.props.users && !isEmpty(nextProps.users)) {
       const lstUsers = orderBy(values(nextProps.users), ["name"], ["asc"]);

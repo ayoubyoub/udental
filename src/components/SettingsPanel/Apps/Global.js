@@ -31,7 +31,7 @@ class Global extends Component {
     this.getSettings(this.props.settings);
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.settings !== this.props.settings) {
       this.getSettings(nextProps.settings);
     }

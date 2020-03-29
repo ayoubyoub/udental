@@ -54,7 +54,7 @@ class UserPanel extends Component {
     };
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     const {uid} = this.state;
     if (nextProps.users[uid] !== this.props.users[uid]) {
       this.setState({

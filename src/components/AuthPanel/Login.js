@@ -30,7 +30,7 @@ class Login extends Component {
     }
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     if (!isEmpty(nextProps.user)) {
       nextProps.history.push("/");
     }

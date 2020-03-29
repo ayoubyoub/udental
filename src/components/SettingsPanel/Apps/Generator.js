@@ -57,7 +57,7 @@ class Generator extends Component {
     this.getSetting(this.props.settings[this.props.settingOf]);
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     if (
       nextProps.settings[this.props.settingOf] !==
       this.props.settings[this.props.settingOf]

@@ -56,7 +56,7 @@ class OrdonnanceHome extends Component {
     this.handleListePatients(patients);
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     const {id} = this.state;
     if (nextProps.patients !== this.props.patients) {
       if (!isEmpty(id)) {

@@ -29,7 +29,7 @@ class ModalPatients extends Component {
     };
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     if (nextProps.image !== this.props.image && !isEmpty(nextProps.image)) {
       this.setState({croppedImage: nextProps.image});
     }

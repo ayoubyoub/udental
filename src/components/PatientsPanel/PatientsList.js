@@ -48,7 +48,7 @@ class PatientsList extends Component {
     this.handleLoadPatients(patients);
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     if (nextProps.patients !== this.props.patients) {
       this.handleLoadPatients(nextProps.patients);
     }

@@ -54,7 +54,7 @@ class Messages extends Component {
     }
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     const {channel, isPrivateChannel} = this.state;
     if (channel) {
       if (nextProps.typing !== this.props.typing) {

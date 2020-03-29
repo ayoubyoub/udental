@@ -54,7 +54,7 @@ class Plans extends Component {
     this.resetComponentP();
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (this.props.users !== nextProps.users) {
       this.handleLoadUsers(nextProps.users);
     }

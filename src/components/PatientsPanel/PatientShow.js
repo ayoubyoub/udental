@@ -62,7 +62,7 @@ class PatientShow extends Component {
     this.handleLoadInfoPatient(patients, id);
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     const {id} = this.state;
     if (nextProps.patients !== this.props.patients) {
       this.handleLoadInfoPatient(nextProps.patients, id);

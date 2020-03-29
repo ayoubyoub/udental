@@ -7,7 +7,7 @@ import {withRouter} from "react-router-dom";
 import PropTypes from "prop-types";
 // Begin
 class AuthenticatedComponent extends Component {
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     if (isEmpty(nextProps.user)) {
       this.props.history.push("/login");
     }

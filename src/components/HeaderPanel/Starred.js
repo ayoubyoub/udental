@@ -29,7 +29,7 @@ class Starred extends Component {
     }
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     const {user} = this.state;
     if (nextProps.channels !== this.props.channels) {
       this.getStarred(nextProps.channels, user.uid);

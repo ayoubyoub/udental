@@ -8,7 +8,7 @@ import {composeWithDevTools} from "redux-devtools-extension";
 import {routerMiddleware, ConnectedRouter} from "react-router-redux";
 import thunk from "redux-thunk";
 import rootReducer from "./reducers";
-import createHistory from "history/createBrowserHistory";
+import { createBrowserHistory } from "history";
 // Components
 import App from "./containers/App";
 // Webpack
@@ -21,7 +21,7 @@ require("./resources/manifest.json");
 // I18n
 import "./translate/i18n.config.js";
 // Begin
-export const history = createHistory();
+export const history = createBrowserHistory();
 const middleware = [
   thunk,
   routerMiddleware(history)
@@ -31,12 +31,10 @@ const middleware = [
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(...middleware)));
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <ConnectedRouter history={history}>
-        <App />
-      </ConnectedRouter>
-    </Provider>
-  </React.StrictMode>,
+  <Provider store={store}>
+  <ConnectedRouter history={history}>
+    <App />
+  </ConnectedRouter>
+</Provider>,
   document.getElementById('root')
 );

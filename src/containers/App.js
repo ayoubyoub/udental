@@ -46,7 +46,7 @@ class App extends Component {
     };
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     if (nextProps.user !== this.props.user) {
       if (has(nextProps.user, "uid")) {
         this.setState({user: nextProps.user});
