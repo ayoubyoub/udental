@@ -22,7 +22,7 @@ const Home = (props) => (
         circular
         src={dental}
       />
-      <Header.Content>uDental Management System</Header.Content>
+      <Header.Content>eDental Management System</Header.Content>
     </Header>
     <Segment>
       <Grid

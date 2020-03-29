@@ -108,7 +108,7 @@ class SettingsPanel extends Component {
             circular
             src={dental}
           />
-          <Header.Content>uDental Settings</Header.Content>
+          <Header.Content>eDental Settings</Header.Content>
         </Header>
         <Segment>
           <Settings

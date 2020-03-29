@@ -21,7 +21,7 @@ class Test extends Component {
         <Helmet title="Page de Test" />
         <Header as="h2" icon textAlign="center">
           <Image circular src={dental} />
-          <Header.Content>uDental Management System</Header.Content>
+          <Header.Content>eDental Management System</Header.Content>
         </Header>
         <Segment style={{ display: "flex", flexDirection: "row" }}>aaaaa</Segment>
       </div>
