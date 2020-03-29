@@ -153,7 +153,6 @@ class OrdonnanceHome extends Component {
   handleChange = (event, {name, value}) => {
     if (this.state.hasOwnProperty(name)) {
       this.setState({[name]: value});
-      console.log("name ", `${name}value ${value}`);
     }
   };
 
@@ -213,11 +212,6 @@ class OrdonnanceHome extends Component {
         datedujour,
         ordonnace
       };
-
-
-      console.log("patient date du jour   ", `${patient.datedujour} ${patient.charges}`);
-
-
       let doc = new jsPDF({
         // Orientation: 'landscape',
         unit: "in",
@@ -233,7 +227,6 @@ class OrdonnanceHome extends Component {
          * ]
          */
       });
-      console.log("image ", this.state.image);
 
       // doc.addImage("https://lh3.googleusercontent.com/-WzJvfpKMdaM/WWE4UuHsFsI/AAAAAAAAAAc/kc_cV_w2awgg9pGrcZo39ag56SfVEFFEgCLIBGAYYCw/w1080-h608-p-k-no-v0/", "JPEG", 0.5, 0.7, 2.5, 2.5);
 
@@ -283,7 +276,7 @@ class OrdonnanceHome extends Component {
     } = this.state;
     return (
       <div>
-        <Helmet title=" DENTIMA APP | Ordonnances" />
+        <Helmet title=" eDental APP | Ordonnances" />
         {!modal && (<ToastContainer />)}
         <HeaderPatients
           active={active}

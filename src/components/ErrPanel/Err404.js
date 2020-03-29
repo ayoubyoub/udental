@@ -8,7 +8,7 @@ import {Segment} from "semantic-ui-react";
 // Begin
 const Er404 = () => (
   <Segment className="page_404">
-    <Helmet title=" DENTIMA APP | 404" />
+    <Helmet title=" eDental APP | 404" />
     <div className="container">
       <div className="row">
         <div className="col-sm-12 ">

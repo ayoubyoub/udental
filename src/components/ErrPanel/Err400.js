@@ -10,7 +10,7 @@ const Er400 = () => (
     className="page_400"
     textAlign="center"
   >
-    <Helmet title=" DENTIMA APP | 400" />
+    <Helmet title=" eDental APP | 400" />
     <Icon
       name="lock"
       size="huge"

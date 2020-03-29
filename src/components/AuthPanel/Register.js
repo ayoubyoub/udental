@@ -119,7 +119,7 @@ class Register extends Component {
         basic
         textAlign="center"
       >
-        <Helmet title=" DENTIMA APP |  REGISTER " />
+        <Helmet title=" eDental APP |  REGISTER " />
         <Card
           centered
           className="auth"

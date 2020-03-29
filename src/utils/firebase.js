@@ -6,12 +6,12 @@ import "firebase/database";
 import "firebase/storage";
 // Config
 const config = {
-  apiKey: "****",
-  authDomain: "****.firebaseapp.com",
-  databaseURL: "https://****.firebaseio.com",
-  projectId: "****",
-  storageBucket: "****.appspot.com",
-  messagingSenderId: "****"
+  apiKey: "AIzaSyBUi8CL8LJQX5Qptv1VhzmxY64BqUe7k1A",
+  authDomain: "youbapp-2020.firebaseapp.com",
+  databaseURL: "https://youbapp-2020.firebaseio.com",
+  projectId: "youbapp-2020",
+  storageBucket: "youbapp-2020.appspot.com",
+  messagingSenderId: "1022223137548"
 };
 // Initialization
 firebase.initializeApp(config);

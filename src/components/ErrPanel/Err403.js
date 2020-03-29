@@ -10,7 +10,7 @@ const Er403 = () => (
     className="page_403"
     textAlign="center"
   >
-    <Helmet title=" DENTIMA APP | 403" />
+    <Helmet title=" eDental APP | 403" />
     <Icon
       name="lock"
       size="huge"

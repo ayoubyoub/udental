@@ -74,7 +74,7 @@ class Login extends Component {
         basic
         textAlign="center"
       >
-        <Helmet title=" DENTIMA APP |  SIGN IN " />
+        <Helmet title=" eDental APP |  SIGN IN " />
         <Card
           centered
           className="auth"
