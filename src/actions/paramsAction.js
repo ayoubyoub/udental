@@ -1,5 +1,5 @@
 // Databases
-import {dbUsers} from "../utils/firebase";
+import {dbUsers} from "../services/firebase";
 // Types
 import {SET_PARAMS} from "./types";
 // Begin

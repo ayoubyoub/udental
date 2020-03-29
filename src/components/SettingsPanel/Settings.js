@@ -1,7 +1,7 @@
 // Addons
 import {map} from "lodash";
 import {ToastContainer} from "react-toastify";
-import {notifyAdd, notifyEdit, notifyDelete, notifyError} from "../../utils/notify";
+import {notifyAdd, notifyEdit, notifyDelete, notifyError} from "../../services/notify";
 // React
 import React, {Component} from "react";
 import PropTypes from "prop-types";

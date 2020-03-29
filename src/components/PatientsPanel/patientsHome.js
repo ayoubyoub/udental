@@ -2,7 +2,7 @@
 import {isEmpty, trim, filter, find, map, values, orderBy, now, debounce, escapeRegExp} from "lodash";
 import {withNamespaces} from "react-i18next";
 import {ToastContainer} from "react-toastify";
-import {notifyAdd, notifyEdit, notifyDelete} from "../../utils/notify";
+import {notifyAdd, notifyEdit, notifyDelete} from "../../services/notify";
 // React
 import React, {Component} from "react";
 import {connect} from "react-redux";

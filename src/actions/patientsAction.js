@@ -1,5 +1,5 @@
 import {GET_PATIENTS, PATIENTS_STATUS} from "./types";
-import {dbPatients, storage} from "../utils/firebase";
+import {dbPatients, storage} from "../services/firebase";
 
 export const getPatients = () => (dispatch) => {
   dispatch({

@@ -1,6 +1,6 @@
 import {has, orderBy} from "lodash";
 import {GET_SETTINGS, SETTINGS_STATUS} from "./types";
-import {dbSettings} from "../utils/firebase";
+import {dbSettings} from "../services/firebase";
 
 export const getSettings = () => (dispatch) => {
   dispatch({

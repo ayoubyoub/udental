@@ -1,6 +1,6 @@
 import {now} from "lodash";
 import {GET_CHANNELS, CHANNELS_STATUS} from "./types";
-import {dbChannels} from "../utils/firebase";
+import {dbChannels} from "../services/firebase";
 
 export const getChannels = () => (dispatch) => {
   dispatch({

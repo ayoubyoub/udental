@@ -1,6 +1,6 @@
 import {now} from "lodash";
 import {GET_PRESENCES, PRESENCES_STATUS} from "./types";
-import {dbPresences} from "../utils/firebase";
+import {dbPresences} from "../services/firebase";
 
 export const getPresences = () => (dispatch) => {
   dispatch({

@@ -1,7 +1,7 @@
 // Addons
 import mime from "mime-types";
 import {ToastContainer} from "react-toastify";
-import {notifyError} from "../../utils/notify";
+import {notifyError} from "../../services/notify";
 // React
 import React, {Component} from "react";
 import PropTypes from "prop-types";

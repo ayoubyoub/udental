@@ -2,7 +2,7 @@
 /* eslint-disable */
 import Helmet from "react-helmet";
 import { filter, map, values, escapeRegExp, isEmpty, toString, now } from 'lodash';
-import { notifyError } from "../../utils/notify";
+import { notifyError } from "../../services/notify";
 import moment from "moment";
 import Dnd from "./Common/Dnd";
 // React

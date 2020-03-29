@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 // Semantic
 import {Modal, Form, TextArea, Dropdown, Input, Button, Icon} from "semantic-ui-react";
 // Import
-import {optRole} from "../../../../utils/roles";
+import {optRole} from "../../../../services/roles";
 const ModalEditUser = (props) => (
   <Modal
     basic

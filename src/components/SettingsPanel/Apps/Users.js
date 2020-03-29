@@ -10,7 +10,7 @@ import {connect} from "react-redux";
 import PropTypes from "prop-types";
 // Semantic
 import {Segment, Button, Container} from "semantic-ui-react";
-import {notifyEdit} from "../../../utils/notify";
+import {notifyEdit} from "../../../services/notify";
 // Actions
 import {resetPwd, editUser, editParamsUser, deleteUser} from "../../../actions/usersAction";
 // Import

@@ -3,7 +3,7 @@
 import {isEmpty} from "lodash";
 import AvatarEditor from "react-avatar-editor";
 import mime from "mime-types";
-import {notifyError} from "../../../utils/notify";
+import {notifyError} from "../../../services/notify";
 import {ToastContainer} from "react-toastify";
 // React
 import React, {Component} from "react";

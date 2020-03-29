@@ -1,7 +1,7 @@
 // Addons
 import {isEmpty, has, map, values} from "lodash";
 import {ToastContainer} from "react-toastify";
-import {notifyError} from "../../utils/notify";
+import {notifyError} from "../../services/notify";
 // React
 import React, {Component} from "react";
 import {withRouter} from "react-router-dom";

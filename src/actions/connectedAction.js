@@ -1,5 +1,5 @@
 import {now} from "lodash";
-import {dbConnected, dbPresences, dbTyping} from "../utils/firebase";
+import {dbConnected, dbPresences, dbTyping} from "../services/firebase";
 export const getConnected = (currentUserUid) => () => {
   dbConnected.on("value", (snap) => {
     if (snap.val() === true) {

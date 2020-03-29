@@ -1,4 +1,4 @@
-import {auth, dbUsers, storage, googleProvider} from "../utils/firebase";
+import {auth, dbUsers, storage, googleProvider} from "../services/firebase";
 import {GET_USER, USER_STATUS, GET_USERS, USERS_STATUS} from "./types";
 import {updatePresence} from "./presencesAction";
 import {deleteTyping} from "./typingAction";

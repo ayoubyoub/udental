@@ -1,6 +1,6 @@
 import {map, now, last} from "lodash";
 import {GET_MESSAGES, MESSAGES_STATUS, GET_PRIVATE_MESSAGES, PRIVATE_MESSAGES_STATUS} from "./types";
-import {dbMessages, dbPrivateMessages, storage} from "../utils/firebase";
+import {dbMessages, dbPrivateMessages, storage} from "../services/firebase";
 // Storage of Messages
 
 export const setUploadTask = (filePath, file, metadata) => () => storage.child(filePath).put(file, metadata);

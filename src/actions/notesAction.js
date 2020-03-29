@@ -1,5 +1,5 @@
 import {GET_NOTES, NOTES_STATUS} from "./types";
-import {dbNotes} from "../utils/firebase";
+import {dbNotes} from "../services/firebase";
 
 export const getNotes = () => (dispatch) => {
   dispatch({

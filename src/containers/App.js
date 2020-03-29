@@ -30,7 +30,7 @@ import Err404 from "../components/ErrPanel/Err404.js";
 import Err403 from "../components/ErrPanel/Err403.js";
 import Err400 from "../components/ErrPanel/Err400.js";
 // Imports
-import {MEDIUM, MASTER} from "../utils/roles";
+import {MEDIUM, MASTER} from "../services/roles";
 // Actions
 import {setParams} from "../actions/paramsAction";
 // Begin

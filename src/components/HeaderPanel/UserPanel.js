@@ -1,7 +1,7 @@
 // Addons
 import AvatarEditor from "react-avatar-editor";
 import {ToastContainer} from "react-toastify";
-import {notifyError} from "../../utils/notify";
+import {notifyError} from "../../services/notify";
 import mime from "mime-types";
 // React
 import React, {Component} from "react";

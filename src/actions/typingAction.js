@@ -1,5 +1,5 @@
 // Databases
-import {dbTyping} from "../utils/firebase";
+import {dbTyping} from "../services/firebase";
 // Types
 import {GET_TYPING, TYPING_STATUS} from "./types";
 

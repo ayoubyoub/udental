@@ -3,7 +3,7 @@ import {values} from "lodash";
 import ReactTable from "react-table";
 import matchSorter from "match-sorter";
 import {ToastContainer} from "react-toastify";
-import {notifyDelete} from "../../utils/notify";
+import {notifyDelete} from "../../services/notify";
 // React
 import React, {Component} from "react";
 import {connect} from "react-redux";
