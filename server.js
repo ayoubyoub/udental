@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const favicon = require('express-favicon');
 const path = require('path');
@@ -10,4 +11,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.listen(port);
+// To start my server
+app.listen(port, () => {
+  console.log('🟢  [Local: http://localhost:9999/api/]  Mock server is running... ');
+});
